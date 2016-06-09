@@ -55,7 +55,7 @@ public class OauthFilter implements Filter {
     public static String RESOURCE_ENDPOINT = "https://perun.elixir-czech.cz/oauth/rpc/json";
 
     public static String REDIRECT_PATH = "/callback";
-    public static String REDIRECT_URI = "http://localhost:8080"+REDIRECT_PATH;
+    public static String REDIRECT_URI = "http://took18.ics.muni.cz:8088"+REDIRECT_PATH;
 
     public static String TOKEN_ARG_NAME = "token";
     public static String STATE_ARG_NAME = "state";
